@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link rel="stylesheet" href="EditYourSearchYOL.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="headline">
+        <a class="item" href="YOL.html">Main Page</a>
+        <p>Your Online Library!</p>
+        <a class="item" href="LogInYOL.html">Log In</a>
+    </div>
+    <br>
+    <br>
+    <div class="center">
+    <form>
+        <label for="searchBar">Search by:</label>
+        <select name="searchType">
+            <option value="Select">Select</option>
+            <option value="book">Book</option>
+            <option value="author">Author</option>
+        </select>
+        <br>
+        <br>
+        Name:
+        <input type="text" name="name" required>
+        <br>
+        <br>
+        Genre:
+        <input type="text" name="genre">
+        <br>
+        <br>
+        Date:
+        <input type="date" name="date">
+        <br>
+        <br>
+        Page Count
+        <input type="text" name="pageCount">
+        <br>
+        <br>
+        Rating (GoodReads):
+        <input type="text" name="rating">
+        <br>
+        <br>
+        <input type="submit" value="Search">
+    </form>
+    </div>
+</body>
+</html>
